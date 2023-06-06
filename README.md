@@ -1,5 +1,5 @@
 # landingPageForDogGroomer
-Landing page for dog grooming created with HTML, CSS and JavaScript, this page is responsive. This is just one example of a landing page.
+Landing page for dog groomercreated with HTML, CSS and JavaScript, this page is responsive. This is just one example of a landing page.
 ## Table of contents
 - [Overview](#overview)
   - [Screenshot](#screenshot)
@@ -11,9 +11,9 @@ Landing page for dog grooming created with HTML, CSS and JavaScript, this page i
 The main idea of the project is to create a landing page with animations, this page is an example for a dog groomer
 ### Screenshot
 
-![](ss/landing-page.jpg)
-![](ss/menu.jpg)
-![](ss/animation.mp4)
+![](ss-project/landing-page.jpg)
+![](ss-project/menu.jpg)
+![](ss-project/animation.mp4)
 
 
 ### Links
