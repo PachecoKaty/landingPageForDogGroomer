@@ -1,4 +1,4 @@
-# landingPageForDogGroomer
+# Landing Page For Dog Groomer
 Landing page for dog groomercreated with HTML, CSS and JavaScript, this page is responsive. This is just one example of a landing page.
 ## Table of contents
 - [Overview](#overview)
@@ -18,7 +18,7 @@ The main idea of the project is to create a landing page with animations, this p
 
 ### Links
 
-- Solution URL: [Landing Page](https://github.com/PachecoKaty/landingPageForDogGroomer)
+- Solution URL: [Landing Page](https://pachecokaty.github.io/landingPageForDogGroomer/)
 
 
 ### Built with
