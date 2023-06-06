@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+nav a {
+     
+    color: #fff;
+    text-decoration: none;
+}
+.icon{
+    display: block;
+    z-index: 100000000;
+    animation: moveLeft 1s ease-in;
+}
+.links{
+    position: fixed;
+    display: flex;
+    top: 0;
+    background: #000;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    right: 0;
+    flex-direction: column;
+    width: 100%;
+    transition: all 1s ease;
+    background: linear-gradient(to right, #3d7086, #234c5a, #0e2630);
+}
+.one{
+    -webkit-clip-path: circle(0% at 0 0);
+    clip-path: circle(0% at 0 0);
+}
+.two{
+    -webkit-clip-path: circle(150% at 0 0);
+    clip-path: circle(150% at 0 0);
+}
+header {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    /*Esto los alinea horizontalmente*/
+    display: flex;
+    /*Alinea verticalmente a la izquierda*/
+    align-items: center;
+    /*Centrar elementos*/
+    margin: auto;
+    /* lo hace hacia la izquierda */
+    justify-content: flex-end;
+
+}
+
+img {
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12%;
+    animation: moveLeft 1s ease-in;
+    transition: opacity 0.3s ease;
+}
+
+.content-text {
+
+    width: 50%;
+    color: #ffff;
+
+}
+                                                               
+.content-text h1 {
+    font-size: 60px;
+    text-decoration-style: solid;
+    animation: moveRight 1s ease-in;
+}
+
+.content-text h2 {
+    font-size: 30px;
+    animation: moveLeft 1s ease-in;
+}
+
+.content-text p {
+    font-size: 15px;
+    animation: moveUp 1.5s ease-in;
+}
+
+.content-text a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 350px;
+    text-decoration: none;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+    animation: moveUp 1.5s ease-in;
+}
+
+.wave {
+    height: 120px;
+    width: 100%;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Con esto super puse la imagen de la ola sobre el del perro*/
+#waves {
+    position: absolute;   
+    height: 100px;
+    width: 100%;
+} 
+
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translate(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveUp{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@media screen and (max-width:1000px){
+    img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:800px){
+    img{
+        height: 380px;
+        top: 22%
+    }
+    .content-text h1{
+        font-size: 70px;
+    }
+    .content-text h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:700px){
+    img{
+        height: 320px;
+        top:18%
+    }
+    .content-text h1{
+        font-size: 40px;
+    }
+    .content-text h2{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    img{
+        height: 250px;
+        top:25%
+    }
+    .content-text h1{
+        font-size: 30px;
+    }
+    .content-text h2{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img{
+        height: 200px;
+        margin-top: 4%;
+    }
+    .content-text{
+        width:100%;
+        text-align: center;
+    }
+    .content-text h1{
+        font-size: 30px;
+    }
+    .content-text h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:340px){
+    img{
+        height: 200px;
+        margin-top: 43%;
+    }
+    .content-text h1{
+        font-size: 50px;
+    }
+    .content-text h2{
+        font-size: 20px;
+    }
+}
