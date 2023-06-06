@@ -11,9 +11,9 @@ Landing page for dog groomercreated with HTML, CSS and JavaScript, this page is 
 The main idea of the project is to create a landing page with animations, this page is an example for a dog groomer
 ### Screenshot
 
-![](ss-project/landing-page.jpg)
-![](ss-project/menu.jpg)
-![](ss-project/animation.mp4)
+![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/landing-page.png)
+![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/menu.jpg)
+![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/animation.mp4)
 
 
 ### Links
