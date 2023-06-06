@@ -18,7 +18,7 @@ The main idea of the project is to create a landing page with animations, this p
 
 ### Links
 
-- Solution URL: [Landing Page]([https://your-solution-url.com](https://github.com/PachecoKaty/landingPageForDogGroomer))
+- Solution URL: [Landing Page](https://github.com/PachecoKaty/landingPageForDogGroomer)
 
 
 ### Built with
