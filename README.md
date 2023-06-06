@@ -12,7 +12,7 @@ The main idea of the project is to create a landing page with animations, this p
 ### Screenshot
 
 ![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/landing-page.png)
-![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/menu.jpg)
+![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/menu.png)
 ![](https://github.com/PachecoKaty/landingPageForDogGroomer/blob/main/ss-project/animation.mp4)
 
 
