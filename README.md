@@ -18,13 +18,13 @@ The main idea of the project is to create a landing page with animations, this p
 
 ### Links
 
-- Solution URL: [Landing Page](https://pachecokaty.github.io/landingPageForDogGroomer/)
+- Solution URL: [Landing Page](https://pachecokaty.github.io/landingPageForDogGrooming/)
 
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 
+- CSS custom properties and animation
 - JavaScript
 
 ## Author
